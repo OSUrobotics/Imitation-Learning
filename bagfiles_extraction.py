@@ -720,5 +720,5 @@ def export_all_topics(bag_or_db_path: str):
 # ---------- main ----------
 if __name__ == "__main__":
     # Bag directory (contains metadata.yaml) OR a .db3 inside it
-    BAG_PATH = "/media/aryan/Pruning25/02_Harvesting_bagfiles/Carmen_apple_picks_data/data/batch_73/apple_1/pressure_servo_20250805_155545.db3"
+    BAG_PATH = "/home/aryan/Documents/batch_52/apple_0/pressure_servo_20250904_100819.db3"
     export_all_topics(BAG_PATH)
